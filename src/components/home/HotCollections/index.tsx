@@ -6,18 +6,18 @@ import { FaArrowRight } from "react-icons/fa";
 export default function HotCollections() {
   return (
     <section className="flex flex-col gap-5">
-      <h2 className="text-5xl">Hot Collections</h2>
-      <div className="flex justify-between items-stretch">
-        <p className="text-white/70 max-w-lg">
+      <h2 className="text-5xl max-md:text-center">Hot Collections</h2>
+      <div className="flex justify-between items-center flex-wrap max-md:flex-col">
+        <p className="text-white/70 max-w-lg text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit amet.
         </p>
         <Link
           href={"/"}
-          className="flex gap-2 items-center hover:text-pink-500 transition">
+          className="flex gap-2 items-center hover:text-pink-500 transition max-md:mt-2">
           View All <FaArrowRight />
         </Link>
       </div>
-      <div className="mt-5 flex justify-between gap-5">
+      <div className="mt-5 flex justify-between gap-5 flex-wrap max-md:flex-col items-center">
         <div className="border border-white/50 flex flex-col gap-3 p-5 rounded-sm w-full max-w-[300px] relative">
           <Image
             src={"/images/c1.png"}

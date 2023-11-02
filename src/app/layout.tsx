@@ -1,6 +1,10 @@
+import "./globals.css";
+import "swiper/css"
+import 'swiper/css/bundle';
+
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
-import "./globals.css";
+
 import AppProvider from "@/components/AppProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";

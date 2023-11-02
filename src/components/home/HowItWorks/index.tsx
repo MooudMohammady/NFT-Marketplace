@@ -3,8 +3,8 @@ import React from "react";
 
 export default function HowItWorks() {
   return (
-    <section className="flex justify-between">
-      <div className="w-2/5 flex flex-col gap-5 items-start justify-center">
+    <section className="flex justify-between flex-wrap max-md:flex-col items-center">
+      <div className="md:w-2/5 flex flex-col gap-5 items-start justify-center max-md:text-center max-md:items-center mb-5">
         <h2 className="text-5xl">How it Works</h2>
         <p className="text-white/50">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit amet. Lorem
@@ -14,8 +14,8 @@ export default function HowItWorks() {
           Learn More
         </button>
       </div>
-      <div className="w-3/5 flex flex-col gap-5">
-        <div className="flex gap-5">
+      <div className="md:w-3/5 flex flex-col gap-5">
+        <div className="flex gap-5 max-md:flex-col items-center">
           <div className="rounded-sm p-px bg-gradient-to-r from-indigo-500 via-pink-500">
             <div className="bg-[#110229] rounded-[calc(0.125rem-1px)] p-5 hover:bg-opacity-80 flex flex-col gap-5">
               <span className="rounded grid place-items-center p-4 bg-white/10 w-16">
@@ -52,7 +52,7 @@ export default function HowItWorks() {
             </div>
           </div>
         </div>
-        <div className="flex gap-5">
+        <div className="flex gap-5 max-md:flex-col items-center">
           <div className="rounded-sm p-px bg-gradient-to-r from-indigo-500 via-pink-500">
             <div className="bg-[#110229] rounded-[calc(0.125rem-1px)] p-5 hover:bg-opacity-80 flex flex-col gap-5">
               <span className="rounded grid place-items-center p-4 bg-white/10 w-16">

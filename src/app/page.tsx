@@ -8,9 +8,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="max-w-7xl mx-auto space-y-24">
-      <section className="flex justify-between mt-5">
-        <div className="flex flex-col justify-center gap-5 w-1/2">
+    <main className="max-w-7xl mx-auto space-y-24 px-2">
+      <section className="flex justify-between mt-5 max-lg:flex-col items-center relative">
+        <div className="flex flex-col justify-center gap-5 md:w-1/2">
           <h1 className="text-7xl">Discover, Collect and Sell Dope NFTs</h1>
           <p className="text-white/80">
             Lorem ipsum dolor sit amet, consectetur adipisc elit amet.
@@ -41,7 +41,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div>
+        <div className="max-lg:absolute max-lg:-z-10 max-lg:opacity-20 max-lg:bottom-0">
           <Image
             width={800}
             height={800}
