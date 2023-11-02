@@ -3,7 +3,7 @@ import React from "react";
 
 export default function TreningAuctions() {
   return (
-    <section className="flex flex-col gap-5 mt-10">
+    <section className="flex flex-col gap-5">
       <h2 className="text-5xl">Trening Auctions</h2>
       <div className="flex justify-between items-stretch">
         <p className="text-white/70 max-w-lg">
@@ -12,17 +12,15 @@ export default function TreningAuctions() {
         </p>
         <div className="flex gap-3 text-xl font-bold">
           <button className="border rounded-sm px-4 grid place-items-center opacity-50">
-            {" "}
-            {"<"}{" "}
+            {"<"}
           </button>
           <button className="border rounded-sm px-4 grid place-items-center">
-            {" "}
-            {">"}{" "}
+            {">"}
           </button>
         </div>
       </div>
       <div className="flex justify-between items-center">
-        <div className="flex flex-col gap-2 p-5 border border-white/50 rounded">
+        <div className="flex flex-col gap-2 p-5 border border-white/50 rounded w-96">
           <div className="flex justify-between">
             <h4 className="text-2xl">Verualy Art</h4>
             <span className="text-white/70 text-sm">@nftsart</span>
@@ -42,7 +40,7 @@ export default function TreningAuctions() {
             <span>Highest bid</span>
           </div>
         </div>
-        <div className="flex flex-col gap-2 p-5 border border-white rounded mb-10">
+        <div className="flex flex-col gap-2 p-5 border border-white rounded mb-16 w-96">
           <div className="flex justify-between">
             <h4 className="text-2xl">CAT ICON ART</h4>
             <span className="text-white/70 text-sm">@nftsart</span>
@@ -93,7 +91,7 @@ export default function TreningAuctions() {
             Place a Bid
           </button>
         </div>
-        <div className="flex flex-col gap-2 p-5 border border-white/50 rounded">
+        <div className="flex flex-col gap-2 p-5 border border-white/50 rounded w-96">
           <div className="flex justify-between">
             <h4 className="text-2xl">DOG ICON ART</h4>
             <span className="text-white/70 text-sm">@nftsart</span>

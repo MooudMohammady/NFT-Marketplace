@@ -1,4 +1,5 @@
 import ComponySection from "@/components/home/ComponySection";
+import Contact from "@/components/home/Contact";
 import HotCollections from "@/components/home/HotCollections";
 import HowItWorks from "@/components/home/HowItWorks";
 import TopSeller from "@/components/home/TopSeller";
@@ -7,7 +8,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="max-w-7xl mx-auto">
+    <main className="max-w-7xl mx-auto space-y-24">
       <section className="flex justify-between mt-5">
         <div className="flex flex-col justify-center gap-5 w-1/2">
           <h1 className="text-7xl">Discover, Collect and Sell Dope NFTs</h1>
@@ -55,6 +56,7 @@ export default function Home() {
       <TreningAuctions />
       <TopSeller />
       <HotCollections />
+      <Contact/>
     </main>
   );
 }
