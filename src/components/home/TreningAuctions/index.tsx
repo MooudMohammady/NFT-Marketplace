@@ -48,6 +48,7 @@ export default function TreningAuctions() {
         ref={sliderRef}
         // loop={true}
         spaceBetween={50}
+        speed={1000}
         // navigation={true}
         slidesPerView={3}
         autoplay={{ delay: 4000 }}

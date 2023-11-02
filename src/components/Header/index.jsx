@@ -12,7 +12,7 @@ const Header = () => {
     sidebarBtn.current.checked = false;
   };
   return (
-    <header className="w-full px-5 z-50 py-5">
+    <header className="w-full px-5 z-50 py-5 sticky top-0 backdrop-blur bg-[#11022950]">
       <div className="flex justify-between max-w-7xl mx-auto">
         <div className="relative text-3xl md:hidden">
           <FaBars className="absolute fill-white" />
