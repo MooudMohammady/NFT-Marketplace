@@ -7,7 +7,7 @@ import { SwiperSlide,Swiper } from "swiper/react";
 
 export default function ComponySection() {
   return (
-    <section className="flex justify-between items-center my-16">
+    <section className="flex justify-between items-center my-16" data-aos="zoom-in-up" data-aos-once>
       <Swiper
         style={{
           // @ts-ignore

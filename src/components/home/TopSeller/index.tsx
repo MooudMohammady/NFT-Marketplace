@@ -7,8 +7,9 @@ export default function TopSeller() {
   return (
     <section className="flex flex-col gap-5">
       <div className="flex justify-between items-center">
-        <h2 className="text-5xl">Top Seller</h2>
+        <h2 className="text-5xl" data-aos="fade-right" data-aos-once>Top Seller</h2>
         <Link
+         data-aos="fade-left" data-aos-once
           href={"/"}
           className="flex gap-2 items-center hover:text-pink-500 transition">
           View All <FaArrowRight />

@@ -21,13 +21,13 @@ export default function TreningAuctions() {
 
   return (
     <section className="flex flex-col gap-5">
-      <h2 className="text-5xl">Trening Auctions</h2>
+      <h2 className="text-5xl" data-aos="fade-right" data-aos-once>Trening Auctions</h2>
       <div className="flex justify-between items-stretch max-md:flex-col">
-        <p className="text-white/70 max-w-lg">
+        <p className="text-white/70 max-w-lg" data-aos="fade-right" data-aos-delay='50' data-aos-once>
           Lorem ipsum dolor sit amet, consectetur adipisc elit amet. Consectetu
           at it lrorem ipsum dolor sit amet.
         </p>
-        <div className="flex gap-3 text-xl font-bold max-md:w-full max-md:mt-2">
+        <div className="flex gap-3 text-xl font-bold max-md:w-full max-md:mt-2" data-aos="fade-left" data-aos-delay='50' data-aos-once>
           <button className="border rounded-sm px-4 grid place-items-center hover:bg-white/20 active:bg-white/10 max-md:w-full max-md:py-3" onClick={handlePrev}>
             {"<"}
           </button>

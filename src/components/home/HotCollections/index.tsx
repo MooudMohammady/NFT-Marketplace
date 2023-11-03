@@ -6,19 +6,31 @@ import { FaArrowRight } from "react-icons/fa";
 export default function HotCollections() {
   return (
     <section className="flex flex-col gap-5">
-      <h2 className="text-5xl max-md:text-center">Hot Collections</h2>
+      <h2
+        className="text-5xl max-md:text-center"
+        data-aos="fade-right"
+        data-aos-once>
+        Hot Collections
+      </h2>
       <div className="flex justify-between items-center flex-wrap max-md:flex-col">
-        <p className="text-white/70 max-w-lg text-center">
+        <p
+          className="text-white/70 max-w-lg text-center"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-once>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit amet.
         </p>
         <Link
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-once
           href={"/"}
           className="flex gap-2 items-center hover:text-pink-500 transition max-md:mt-2">
           View All <FaArrowRight />
         </Link>
       </div>
       <div className="mt-5 flex justify-between gap-5 flex-wrap max-md:flex-col items-center">
-        <div className="border border-white/50 flex flex-col gap-3 p-5 rounded-sm w-full max-w-[300px] relative">
+        <div className="border border-white/50 flex flex-col gap-3 p-5 rounded-sm w-full max-w-[300px] relative" data-aos="fade-up"data-aos-once>
           <Image
             src={"/images/c1.png"}
             alt="collection image"
@@ -60,7 +72,7 @@ export default function HotCollections() {
             className="absolute left-1/2 -translate-x-1/2 top-56"
           />
         </div>
-        <div className="border border-white/50 flex flex-col gap-3 p-5 rounded-sm w-full max-w-[300px] relative">
+        <div className="border border-white/50 flex flex-col gap-3 p-5 rounded-sm w-full max-w-[300px] relative" data-aos="fade-up"data-aos-once>
           <Image
             src={"/images/c2.png"}
             alt="collection image"
@@ -102,7 +114,7 @@ export default function HotCollections() {
             className="absolute left-1/2 -translate-x-1/2 top-56"
           />
         </div>
-        <div className="border border-white/50 flex flex-col gap-3 p-5 rounded-sm w-full max-w-[300px] relative">
+        <div className="border border-white/50 flex flex-col gap-3 p-5 rounded-sm w-full max-w-[300px] relative" data-aos="fade-up"data-aos-once>
           <Image
             src={"/images/c3.png"}
             alt="collection image"
@@ -144,7 +156,7 @@ export default function HotCollections() {
             className="absolute left-1/2 -translate-x-1/2 top-56"
           />
         </div>
-        <div className="border border-white/50 flex flex-col gap-3 p-5 rounded-sm w-full max-w-[300px] relative">
+        <div className="border border-white/50 flex flex-col gap-3 p-5 rounded-sm w-full max-w-[300px] relative" data-aos="fade-up"data-aos-once>
           <Image
             src={"/images/c4.png"}
             alt="collection image"

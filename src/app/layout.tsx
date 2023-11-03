@@ -1,6 +1,7 @@
 import "./globals.css";
 import "swiper/css"
 import 'swiper/css/bundle';
+import "aos/dist/aos.css"
 
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
@@ -23,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className + ' bg-[#110229] text-white'}>
+      <body className={roboto.className + ' bg-[#110229] text-white overflow-x-hidden'}>
         <AppProvider>
           <Header/>
           {children}

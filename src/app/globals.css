@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .linear-swiper{
   transition-timing-function: linear !important;
 }
