@@ -18,9 +18,9 @@ export default function ComponySection() {
         spaceBetween={50}
         // navigation={true}
         slidesPerView={'auto'}
-        
-        speed={1000}
-        autoplay={{ delay: 0 }}
+        wrapperClass="linear-swiper"
+        speed={4000}
+        autoplay={{ delay: 0,disableOnInteraction:true }}
         breakpoints={{
           0: {
             slidesPerView: 2,

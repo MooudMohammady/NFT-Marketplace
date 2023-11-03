@@ -22,17 +22,17 @@ export default function TreningAuctions() {
   return (
     <section className="flex flex-col gap-5">
       <h2 className="text-5xl">Trening Auctions</h2>
-      <div className="flex justify-between items-stretch">
+      <div className="flex justify-between items-stretch max-md:flex-col">
         <p className="text-white/70 max-w-lg">
           Lorem ipsum dolor sit amet, consectetur adipisc elit amet. Consectetu
           at it lrorem ipsum dolor sit amet.
         </p>
-        <div className="flex gap-3 text-xl font-bold">
-          <button className="border rounded-sm px-4 grid place-items-center hover:bg-white/20 active:bg-white/10" onClick={handlePrev}>
+        <div className="flex gap-3 text-xl font-bold max-md:w-full max-md:mt-2">
+          <button className="border rounded-sm px-4 grid place-items-center hover:bg-white/20 active:bg-white/10 max-md:w-full max-md:py-3" onClick={handlePrev}>
             {"<"}
           </button>
           <button
-            className="border rounded-sm px-4 grid place-items-center hover:bg-white/20 active:bg-white/10"
+            className="border rounded-sm px-4 grid place-items-center hover:bg-white/20 active:bg-white/10 max-md:w-full max-md:py-3"
             onClick={handleNext}>
             {">"}
           </button>
@@ -46,11 +46,9 @@ export default function TreningAuctions() {
           "--swiper-pagination-color": "#fff",
         }}
         ref={sliderRef}
-        // loop={true}
         spaceBetween={50}
         speed={1000}
-        // navigation={true}
-        slidesPerView={3}
+        slidesPerView={1}
         autoplay={{ delay: 4000 }}
         breakpoints={{
           0: {

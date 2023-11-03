@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="max-w-7xl mx-auto flex justify-between mt-24 py-10">
+    <footer className="max-w-7xl mx-auto flex justify-between mt-24 pt-10 flex-col">
       <div className="flex justify-between w-full flex-wrap px-5 max-sm:flex-col max-sm:text-center gap-5 items-center">
         <ul className="text-white/70 flex flex-col gap-2 max-w-sm">
           <li className="text-white text-2xl mb-3">Marketplace</li>
@@ -99,6 +99,9 @@ export default function Footer() {
             </a>
           </li>
         </ul>
+      </div>
+      <div className="text-center mt-8 mb-4">
+        Denovin. All Rights Reserved 2023©
       </div>
     </footer>
   );
