@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Banner](https://github.com/MooudMohammady/NFT-Marketplace/assets/101109068/a455e84e-6500-4d76-bf3a-60c8638d5f8a)
+# NFT Marketplace
+You can see [demo](https://nft-marketplace-ten-delta.vercel.app/)
 
 ## Getting Started
 
